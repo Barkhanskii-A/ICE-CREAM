@@ -1,14 +1,20 @@
 $maxWidth: 1920; // Максимальная ширина страницы
 
-$containerWidth: 1160px; // ширина контейнера из макета
-$mainOffset: 15px; // отступы безопасности для контейнера
+$containerWidth: 1168px; // ширина контейнера из макета
+$mainOffset: 16px; // отступы безопасности для контейнера
 
 $fontSize: 1.6rem; // Размер шрифта по умолчанию
-$fontFamily: ''; // Шрифт по умолчанию
+$fontFamily: 'Montserrat', sans-serif; // Шрифт по умолчанию
 
 // Цвета ===========================================================================================
-$main: #000;
-$black: #000;
-$white: #fff;
-
-
+$black: #131313;
+$white: #FCFCFC;
+$main: $black;
+$yellow: #F8D24E;
+$green: #97AF8D;
+$grey: #ABABAB;
+$pink: #D6936D;
+$btn-bg-green: #0A8817;
+// =========text color==================
+$whiteText: $white;
+$blackText: $black;

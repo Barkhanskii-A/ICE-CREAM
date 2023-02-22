@@ -1,0 +1,25 @@
+.btn {
+	background: $yellow;
+	border-radius: 10px;
+	padding: 12px 34px 12px 34px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: $black;
+	stroke: $black;
+	transition: all 0.2s ease;
+	&:hover {
+		background: $btn-bg-green;
+		transform: scale(0.91);
+		}
+	&:focus {
+		background: $btn-bg-green;
+		color: $white;
+		stroke: rgb(253, 247, 247);
+	}
+	&:disabled {
+		background: $grey;
+		transform: scale(0.91);
+	}
+}

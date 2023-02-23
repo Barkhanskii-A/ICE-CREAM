@@ -1,0 +1,113 @@
+.presentation {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		min-height: 590px;
+	}
+	&__title-inner {
+		max-width: 367px;
+		margin-top: 58px;
+	}
+	&__title {
+		font-family: 'SeymourOne';
+		font-weight: 400;
+		font-size: 3.8rem;
+		line-height: 4.8rem;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: $whiteText;
+		margin-bottom: 28px;
+	}
+	&__button-inner {
+		margin-bottom: 42px;
+	}
+	&__products-btn {
+		font-weight: 600;
+		font-size: 1.4rem;
+		line-height: 1.29;
+		padding: 12px 34px;
+		background: $green;
+		border: 2px solid $yellow;
+		margin-right: 12px;
+		&:hover {
+			border: 2px solid $btn-bg-green;
+			background: inherit;
+		}
+		&:focus {
+			border: 2px solid $btn-bg-green;
+			background: inherit;
+			color: $whiteText;
+		}
+		&:active {
+			border: 2px solid $grey;
+			background: inherit;
+			color: inherit;
+		}
+	}
+	&__made-link {
+		color: $yellow;
+		text-decoration: underline;
+		font-weight: 600;
+		font-size: 1.4rem;
+		line-height: 1.7rem;
+		&:hover {
+			color: $btn-bg-green;
+			text-decoration: underline;
+		}
+		&:focus {
+			color: $white;
+			text-decoration: underline;
+		}
+		&:active {
+			color: $grey;
+			text-decoration: underline;
+		}
+	}
+	&__title-box {
+		display: flex;
+		align-items: center;
+	}
+	&__right-side {
+		display: flex;
+	}
+}
+.title-box {
+	&__text-inner {
+		margin-left: 14px;
+	}
+	&__desc {
+		max-width: 200px;
+		min-height: 80px;
+		font-weight: 400;
+		font-size: 1.4rem;
+		line-height: 2rem;
+		color: $whiteText;
+		margin-bottom: 32px;
+	}
+	&__arrow {
+		min-height: 17px;
+		transition: all 0.2s ease-in-out;
+		& img {
+			&:hover {
+				transform: translateX(10px) scaleX(1.4);
+			}
+		}
+	}
+}
+.right-side {
+	& img {
+		max-width: 483px;
+		width: 100%;
+		height: 100%;
+	}
+	&__quantity {
+		margin-top: 56px;
+		& span {
+			font-weight: 900;
+			font-size: 4.6rem;
+			line-height: 5.6rem;
+			text-align: right;
+			letter-spacing: 0.04em;
+		}
+	}
+}

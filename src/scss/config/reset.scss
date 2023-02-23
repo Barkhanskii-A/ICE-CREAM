@@ -66,11 +66,14 @@ button::-moz-focus-inner {
 
 a {
 	text-decoration: none;
+	cursor: pointer;
 	&:visited {
 		text-decoration: none;
+		cursor: pointer;
 	}
 	&:hover {
 		text-decoration: none;
+		cursor: pointer;
 	}
 }
 

@@ -6,7 +6,7 @@
 	font-size: 14px;
 	line-height: 17px;
 	text-align: center;
-	color: $black;
+	color: $blackText;
 	stroke: $black;
 	transition: all 0.2s ease;
 	&:hover {
@@ -15,11 +15,13 @@
 		}
 	&:focus {
 		background: $btn-bg-green;
-		color: $white;
+		color: $whiteText;
 		stroke: rgb(253, 247, 247);
 	}
-	&:disabled {
+	&:active {
+		color: $blackText;
 		background: $grey;
 		transform: scale(0.91);
+		stroke: $black;
 	}
 }

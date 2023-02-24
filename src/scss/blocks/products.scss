@@ -1,0 +1,125 @@
+.products {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 $mainOffset;
+	&__img-bg {
+		position: absolute;
+		top: -7px;
+		left: 0;
+		max-width: 1200px;
+		width: 100%;
+		min-height: 1050px;
+		object-fit: cover;
+	}
+	&__container {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__title-inner {
+		margin-top: 60px;
+	}
+	&__sub-title {
+		font-weight: 800;
+		font-size: 3rem;
+		line-height: 3.7rem;
+		text-align: center;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		margin-bottom: 12px;
+	}
+	&__title {
+		font-family: 'SeymourOne';
+		font-size: 3.6rem;
+		line-height: 4.5rem;
+		text-align: center;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		margin-bottom: 303px;
+	}
+	&__card {
+		display: flex;
+		justify-content: space-between;
+		gap: 32px;
+	}
+	&__card-inner {
+		position: relative;
+		max-width: 370px;
+		min-height: 718px;
+	}
+}
+.card {
+	position: relative;
+	&__img-wrp {
+		position: absolute;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 103.6px;
+		top: -170px;
+		right: 36px;
+	}
+	&__img {
+		max-width: 300px;
+		width: 100%;
+		height: auto;
+		&_green {
+			filter: drop-shadow(0 17px 0 #9cbe8f);
+		}
+		&_yellow {
+			filter: drop-shadow(0 17px 0 rgba(248, 210, 78, 0.7));
+		}
+		&_brown {
+			filter: drop-shadow(0 17px 0 #d5753f);
+		}
+	}
+	&__box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 535.51px;
+		&_green {
+			background: #aec6a5;
+			border-radius: 24px;
+			width: 370px;
+		}
+		&_yellow {
+			background: #EFD478;
+			border-radius: 24px;
+			width: 370px;
+		}
+		&_brown {
+			background: #d6936d;
+			border-radius: 24px;
+			width: 370px;
+		}
+	}
+	&__title {
+		padding-top: 166px;
+		font-weight: 700;
+		font-size: 3rem;
+		line-height: 3.7rem;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 65px;
+	}
+	&__desc {
+		max-width: 246.44px;
+		min-height: 147px;
+		font-size: 16px;
+		line-height: 1.76;
+		text-align: center;
+		letter-spacing: 0.04em;
+		margin-bottom: 60px;
+	}
+	&__arrow {
+		max-width: 17px;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			transform: translateX(10px) scaleX(1.4);
+		}
+	}
+}

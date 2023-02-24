@@ -41,7 +41,7 @@ body {
 	height: 100%;
 	line-height: 1;
 	font-family: $fontFamily;
-	background: $green;
+	background: #f5f5f5;
 	color: $main;
 }
 
@@ -66,14 +66,11 @@ button::-moz-focus-inner {
 
 a {
 	text-decoration: none;
-	cursor: pointer;
 	&:visited {
 		text-decoration: none;
-		cursor: pointer;
 	}
 	&:hover {
 		text-decoration: none;
-		cursor: pointer;
 	}
 }
 

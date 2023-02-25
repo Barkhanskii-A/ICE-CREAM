@@ -3,7 +3,8 @@
 		position: relative;
 		display: flex;
 		justify-content: space-between;
-		min-height: 590px;
+		gap: 195px;
+		min-height: 598px;
 		background: $green;
 	}
 	&__left-side {
@@ -79,28 +80,34 @@
 		width: 100%;
 		height: auto;
 		top: 203px;
-    left: 0;
-    min-height: 384px;
+		left: 0;
+		min-height: 384px;
 	}
 	&__right-side {
 		display: flex;
-		position: relative;
-		top: 0;
-		left: 0;
+		max-width: 500px;
+		margin-top: 33px;
+		padding-right: 86px;
+		& img {
+			flex: 0 1 auto;
+			width: 100%;
+			height: 100%;
+			filter: drop-shadow(0 -2rem 4rem $white);
+		}
 	}
 }
 .title-box {
 	&__text-inner {
+		width: 200px;
+		min-height: 80px;
 		margin-left: 14px;
 	}
 	&__desc {
-		max-width: 200px;
-		min-height: 80px;
 		font-weight: 400;
 		font-size: 1.4rem;
 		line-height: 2rem;
 		color: $whiteText;
-		margin-bottom: 32px;
+		margin-bottom: 25px;
 	}
 	&__arrow {
 		min-height: 17px;
@@ -114,16 +121,6 @@
 }
 .right-side {
 	&__img-wrp {
-		max-width: 484px;
-		min-height: 590px;
-	}
-	&__img {
-		max-width: 484px;
-		width: 100%;
-		height: auto;
-		object-fit: cover;
-		margin: 33px 93.05px 0 0;
-		filter: drop-shadow(0 -2rem 4rem $white);
 	}
 	&__quantity {
 		display: flex;
@@ -131,13 +128,14 @@
 		align-items: end;
 		position: absolute;
 		top: 0;
-		right: 0;
-		margin-top: 56px;
+		right: 16px;
+		padding-top: 56px;
 		& span {
 			font-weight: 900;
 			font-size: 4.6rem;
 			line-height: 5.6rem;
 			letter-spacing: 0.04em;
+			margin-bottom: 4px;
 		}
 	}
 	&__text {
@@ -145,5 +143,9 @@
 		font-size: 1.4rem;
 		line-height: 1.7rem;
 		color: $whiteText;
+		margin-bottom: 16px;
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }

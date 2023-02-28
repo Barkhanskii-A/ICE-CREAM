@@ -4,10 +4,6 @@
 	}
 	&__logo {
 		margin-top: 8px;
-		transition: all 0.2s ease;
-		&:hover {
-			transform: scale(1.1);
-		}
 		&:active {
 			opacity: 0.6;
 		}
@@ -34,6 +30,24 @@
 		display: flex;
 		flex-direction: row;
 		padding-top: 32px;
+		&__link {
+			color: $whiteText;
+			&:hover {
+				color: $yellow;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+			&:focus {
+				background: $btn-bg-green;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+			&:active {
+				color: $yellow;
+				text-decoration: underline;
+				opacity: 0.6;
+			}
+		}
 	}
 
 	.menu > li {
@@ -43,21 +57,6 @@
 		font-size: 16px;
 		line-height: 20px;
 		transition: all 0.2s ease;
-		&:hover {
-			color: $yellow;
-			text-decoration: underline;
-			cursor: pointer;
-		}
-		&:focus {
-			background: $btn-bg-green;
-			text-decoration: underline;
-			cursor: pointer;
-		}
-		&:active {
-			color: $yellow;
-			text-decoration: underline;
-			opacity: 0.6;
-		}
 	}
 
 	.menu-button-container {

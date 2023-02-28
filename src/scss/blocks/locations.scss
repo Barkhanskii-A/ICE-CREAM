@@ -81,6 +81,16 @@
 		/* or 29px */
 		letter-spacing: 0.04em;
 		color: $pink;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			text-decoration: underline;
+			opacity: 0.6;
+		}
+		&:focus {
+			text-decoration: underline;
+		}
 	}
 }
 .schedule-box {
@@ -105,8 +115,36 @@
 .contacts-box {
 	&__tel {
 		margin-bottom: 12px;
+		color: $blackText;
+		font-weight: 500;
+		line-height: 1.83;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			text-decoration: underline;
+			opacity: 0.6;
+			color: $grey;
+		}
+		&:focus {
+			text-decoration: underline;
+		}
 	}
 	&__email {
+		color: $blackText;
+		font-weight: 500;
+		line-height: 1.83;
+
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			text-decoration: underline;
+			opacity: 0.6;
+		}
+		&:focus {
+			text-decoration: underline;
+		}
 	}
 }
 .loc-btn {

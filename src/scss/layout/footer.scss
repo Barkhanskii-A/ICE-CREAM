@@ -1,7 +1,7 @@
 .footer {
 	&__container {
 		background: $green;
-		padding-top: 100px;
+		padding-bottom: 11px;
 	}
 
 	&__inner {
@@ -9,21 +9,15 @@
 		justify-content: space-between;
 		margin-bottom: 54px;
 	}
-
-	&__title-inner {
-	}
-
 	&__right-side-inner {
 		max-width: 340px;
 	}
-
 	&__social {
 		display: flex;
 		justify-content: flex-end;
 		gap: 30px;
 		margin-bottom: 40px;
 	}
-
 	&__contacts {
 		display: flex;
 		align-items: center;
@@ -91,7 +85,10 @@
 	}
 
 	&__tel {
+		font-weight: 700;
 		color: $whiteText;
+		line-height: 1.86;
+		letter-spacing: 0.02em;
 		&:hover {
 			text-decoration: underline;
 		}

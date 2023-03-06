@@ -95,58 +95,5 @@
 			margin-top: -4px;
 			transform: rotate(-405deg);
 		}
-
-		@media (max-width: 768px) {
-			.top-nav {
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-			}
-			.menu-button-container {
-				display: flex;
-			}
-			.menu {
-				position: absolute;
-				top: 0;
-				left: 0;
-				margin-top: 73px;
-				width: 100%;
-				z-index: 4;
-				&__item {
-					display: flex;
-					justify-content: center;
-					padding-bottom: 40px;
-					margin: 0 auto;
-					width: 100%;
-					color: $whiteText;
-					background-color: $green;
-					&:first-child {
-						padding-top: 76px;
-					}
-					&:last-child {
-						padding-bottom: 0;
-					}
-					& a {
-						&:hover {
-							color: $blackText;
-						}
-					}
-				}
-			}
-			#menu-toggle ~ .menu {
-				display: none;
-				transition: 0.4s all;
-			}
-			#menu-toggle:checked ~ .menu {
-				display: block;
-				background: $green;
-				height: 100vh;
-
-				font-weight: 700;
-				font-size: 4.8rem;
-				line-height: 5.9rem;
-				color: #fcfcfc;
-			}
-		}
 	}
 }

@@ -1,0 +1,46 @@
+@media (max-width: 320px) {
+	.presentation {
+		&__container {
+      flex-direction: column;
+
+			position: relative;
+			padding: 0 20px;
+			min-height: 451px;
+		}
+		&__title-inner {
+			max-width: 247px;
+			padding-top: 58px;
+		}
+		&__title {
+			font-size: 2.6rem;
+			line-height: 3.3rem;
+			margin-bottom: 32px;
+		}
+		&__button-inner {
+			margin-bottom: 31.55px;
+		}
+		&__dots-left {
+			display: none;
+		}
+		&__dots-right {
+			display: none;
+		}
+		&__right-side {
+			margin: 0;
+			max-width: 257px;
+			height: 207px;
+			& img {
+        padding-left: 62px;
+				width: 257px;
+			}
+		}
+	}
+	.title-box {
+		display: none;
+	}
+	.right-side {
+		&__quantity {
+			display: none;
+		}
+	}
+}

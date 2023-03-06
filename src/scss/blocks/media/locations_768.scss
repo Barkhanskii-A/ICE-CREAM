@@ -1,0 +1,139 @@
+@media (max-width: 768px) {
+	.locations {
+		&__container {
+			position: relative;
+			min-height: 667px;
+			background: $green;
+			margin-top: 45px;
+			display: flex;
+			justify-content: center;
+		}
+		&__wrp {
+			position: absolute;
+			top: -92px;
+			display: flex;
+			gap: 32px;
+		}
+		&__card-inner {
+			max-width: 368px;
+			height: 516px;
+			background: #ffffff;
+			border-radius: 24px;
+		}
+		&__button {
+			display: flex;
+			align-items: center;
+			gap: 16px;
+			max-width: 408px;
+			padding-top: 506px;
+		}
+	}
+	.card-loc {
+		&__inner {
+			padding: 40px;
+		}
+		&__title {
+			max-width: 75px;
+			height: 28px;
+			font-weight: 500;
+			line-height: 1.86;
+			text-transform: uppercase;
+			/* or 30px */
+			text-align: center;
+			letter-spacing: 0.04em;
+			background-color: $yellow;
+			border-radius: 6px;
+			margin-bottom: 32px;
+			&_ft {
+				max-width: 138px;
+			}
+		}
+		&__adress-box {
+			margin-bottom: 32px;
+		}
+
+		&__line {
+			border: 1px solid $line;
+			margin-bottom: 32px;
+		}
+
+		&__schedule-box {
+			margin-bottom: 32px;
+		}
+
+		&__contacts-box {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+	.adress-box {
+		&__title {
+			font-weight: 500;
+			line-height: 1.86;
+			/* identical to box height, or 30px */
+			letter-spacing: 0.04em;
+			margin-bottom: 8px;
+		}
+
+		&__link {
+			font-weight: 500;
+			line-height: 1.83;
+			/* or 29px */
+			letter-spacing: 0.04em;
+			color: $pink;
+		}
+	}
+	.schedule-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		&__week {
+			font-weight: 500;
+			line-height: 1.86;
+			letter-spacing: 0.04em;
+		}
+
+		&__opening {
+			font-weight: 500;
+			color: $grey;
+			margin-bottom: 12px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.contacts-box {
+		&__tel {
+			margin-bottom: 12px;
+			color: $blackText;
+			font-weight: 500;
+			line-height: 1.83;
+		}
+		&__email {
+			color: $blackText;
+			font-weight: 500;
+			line-height: 1.83;
+		}
+	}
+	.loc-btn {
+		&__our-loc {
+			display: flex;
+			align-items: center;
+			padding: 12px 34px;
+			& svg {
+				margin-left: 10.2px;
+			}
+		}
+		&__franchise {
+			display: flex;
+			align-items: center;
+			padding: 12px 46px;
+			background: $green;
+			border: 2px solid $yellow;
+			& svg {
+				margin-left: 9.7px;
+			}
+		}
+	}
+}

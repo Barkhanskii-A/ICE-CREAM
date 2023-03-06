@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+	.reviews {
+		max-width: 768px;
+		height: 958px;
+		&__img-bg {
+			top: 0;
+			max-width: 768px;
+			min-height: 958px;
+		}
+		& .mySwiper {
+			top: -165px;
+		}
+	}
+}

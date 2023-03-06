@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+	.products {
+		max-width: 768px;
+		&__img-bg {
+			max-width: 768px;
+			min-height: 874px;
+		}
+		&__container {
+			padding: 0 32px;
+		}
+		&__sub-title {
+			font-size: 2.2rem;
+			line-height: 2.7rem;
+		}
+		&__title {
+			font-size: 3.4rem;
+			line-height: 4.3rem;
+			letter-spacing: 0.04em;
+			margin-bottom: 200px;
+		}
+		&__card {
+			gap: 16px;
+			margin-bottom: 82px;
+		}
+		.card {
+			width: 100%;
+			&__inner {
+				max-width: 224px;
+				height: 441px;
+			}
+			&__img {
+				max-width: 199px;
+				&_green {
+					top: -127px;
+					right: 12px;
+					filter: drop-shadow(0 17px 0 #9cbe8f);
+				}
+				&_yellow {
+					top: -127px;
+					right: 12px;
+				}
+				&_brown {
+					top: -127px;
+					right: 12px;
+				}
+			}
+
+			&__box {
+				min-height: 293px;
+				&_green {
+					background: #aec6a5;
+					border-radius: 24px;
+					width: 100%;
+				}
+				&_yellow {
+					background: #efd478;
+					border-radius: 24px;
+				}
+				&_brown {
+					background: #d6936d;
+				}
+			}
+			&__title {
+				font-size: 2.2rem;
+				line-height: 2.7rem;
+				margin-bottom: 40px;
+				padding-top: 107.75px;
+			}
+			&__desc {
+				max-width: 172px;
+				min-height: 175px;
+				font-size: 14px;
+				margin-bottom: 57px;
+			}
+			&__arrow {
+				max-width: 35px;
+				margin-bottom: 18px;
+				transition: all 0.2s ease-in-out;
+				&:hover {
+					transform: translateX(10px) scaleX(1.4);
+				}
+				&:focus {
+					transform: translateX(10px) scaleX(1.4);
+				}
+				&:active {
+					transform: translateX(10px) scaleX(1.4);
+				}
+			}
+		}
+	}
+}

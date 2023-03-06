@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+	.header {
+    &__container {
+      padding: 0 32px;
+    }
+		&__logo {
+			width: 48px;
+			flex-grow: 1;
+		}
+		.menu-button-container {
+      padding-top: 29px;
+		}
+	}
+}

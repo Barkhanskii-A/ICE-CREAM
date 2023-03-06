@@ -1,3 +1,9 @@
+body {
+  &.lock {
+    overflow: hidden;
+    touch-action: none;
+  }
+}
 // Стили основного ограничивающего контейнера ==========================================================
 [class*="__container"] {
   max-width: $containerWidth + $mainOffset * 2;

@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+	.made {
+		&__container {
+			min-height: 1075px;
+			padding: 0 32px;
+		}
+		&__recipes {
+			min-height: 356px;
+			margin-bottom: 48.12px;
+		}
+	}
+	.title-box {
+		&__sub-title {
+			font-size: 2.2;
+			line-height: 2.7;
+		}
+		&__title {
+			font-size: 3.4rem;
+			line-height: 4.3rem;
+			margin-bottom: 72px;
+		}
+	}
+	.recipes {
+		&__img {
+			max-width: 336px;
+			height: 330px;
+			filter: drop-shadow(0 -25px 0 #f8d24e);
+		}
+	}
+	.right-box {
+		margin-right: 0;
+		max-width: 336px;
+		&__desc {
+			font-size: 1.2rem;
+			line-height: 1.76;
+			min-height: 254px;
+		}
+	}
+	// =============Testimonials=========================
+	.testimonials {
+		&__holder {
+			padding-bottom: 204px;
+		}
+		&__box {
+			max-width: 152px;
+			min-height: 111px;
+			& span {
+				font-size: 4.8rem;
+				line-height: 5.9rem;
+				margin-bottom: 16px;
+			}
+		}
+		&__icon-box {
+			margin-bottom: 32px;
+		}
+		&__desc {
+			line-height: 1.74;
+			letter-spacing: 0;
+		}
+	}
+}

@@ -45,13 +45,13 @@
 	}
 }
 .right-box {
+	max-width: 463px;
 	margin-right: 115px;
 	&__desc {
 		font-size: 1.4rem;
 		line-height: 1.94;
 		letter-spacing: 0.04em;
 		color: #fcfcfc;
-		max-width: 463px;
 		min-height: 257px;
 	}
 	&__btn {
@@ -68,10 +68,11 @@
 	&__holder {
 		display: flex;
 		justify-content: space-between;
+		padding-bottom: 180px;
 	}
 	&__box {
 		max-width: 368px;
-		min-height: 65px;
+		min-height: 223px;
 		display: flex;
 		align-items: center;
 		flex-direction: column;

@@ -3,7 +3,6 @@
 		position: relative;
 		display: flex;
 		justify-content: space-between;
-		gap: 195px;
 		min-height: 598px;
 		background: $green;
 	}
@@ -16,6 +15,7 @@
 		margin-top: 58px;
 	}
 	&__title {
+		display: block;
 		font-family: 'SeymourOne';
 		font-weight: 400;
 		font-size: 3.8rem;
@@ -27,6 +27,9 @@
 	}
 	&__button-inner {
 		margin-bottom: 42px;
+		display: flex;
+		align-items: center;
+		gap: 12px;
 	}
 	&__products-btn {
 		font-weight: 600;
@@ -35,7 +38,6 @@
 		padding: 12px 34px;
 		background: $green;
 		border: 2px solid $yellow;
-		margin-right: 12px;
 		&:hover {
 			border: 2px solid $btn-bg-green;
 			background: inherit;
@@ -51,23 +53,25 @@
 			color: inherit;
 		}
 	}
-	&__made-link {
+	&__made-btn {
 		color: $yellow;
+		background: inherit;
 		text-decoration: underline;
 		font-weight: 600;
 		font-size: 1.4rem;
 		line-height: 1.7rem;
+		padding: 12px 21px 11px 22px;
 		&:hover {
 			color: $btn-bg-green;
-			text-decoration: underline;
+			background: inherit;
 		}
 		&:focus {
-			color: $white;
-			text-decoration: underline;
+			background: inherit;
+			color: $whiteText;
 		}
 		&:active {
+			background: inherit;
 			color: $grey;
-			text-decoration: underline;
 		}
 	}
 	&__title-box {
@@ -83,15 +87,21 @@
 		left: 0;
 		min-height: 384px;
 	}
+	&__dots-left {
+		display: none;
+	}
+	&__dots-right {
+		display: none;
+	}
 	&__right-side {
 		display: flex;
-		max-width: 500px;
 		margin-top: 33px;
-		padding-right: 86px;
+		padding-right: 61px;
 		& img {
-			flex: 0 1 auto;
+			max-width: 447px;
 			width: 100%;
 			height: 100%;
+			object-fit: cover;
 			filter: drop-shadow(0 -2rem 4rem $white);
 		}
 	}
@@ -111,8 +121,9 @@
 	}
 	&__arrow {
 		min-height: 17px;
-		transition: all 0.2s ease-in-out;
 		& img {
+			padding: 5px 0;
+			transition: all 0.2s ease-in-out;
 			&:hover {
 				transform: translateX(10px) scaleX(1.4);
 			}
@@ -120,16 +131,14 @@
 	}
 }
 .right-side {
-	&__img-wrp {
-	}
 	&__quantity {
+		position: absolute;
 		display: flex;
 		flex-direction: column;
 		align-items: end;
 		position: absolute;
-		top: 0;
+		top: 56px;
 		right: 16px;
-		padding-top: 56px;
 		& span {
 			font-weight: 900;
 			font-size: 4.6rem;

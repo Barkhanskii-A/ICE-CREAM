@@ -8,14 +8,20 @@ $fontFamily: 'Montserrat', sans-serif; // Шрифт по умолчанию
 
 // Цвета ===========================================================================================
 $black: #131313;
-$white: #FCFCFC;
+$white: #fcfcfc;
 $main: $black;
-$yellow: #F8D24E;
-$green: #84A278;
-$grey: #ABABAB;
-$pink: #D6936D;
-$btn-bg-green: #0A8817;
-$line: #E1E1E1;
+$yellow: #f8d24e;
+$green: #84a278;
+$grey: #ababab;
+$pink: #d6936d;
+$btn-bg-green: #0a8817;
+$line: #e1e1e1;
 // =========text color==================
 $whiteText: $white;
 $blackText: $black;
+
+// ======burger menu============
+$timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+$nav-width-desktop: 100em;
+$nav-width-mobile: 25em;
+$nav-item-nb: 6;

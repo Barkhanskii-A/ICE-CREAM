@@ -1,0 +1,83 @@
+@media (max-width: 320px) {
+	.locations {
+		&__container {
+			min-height: 1065px;
+			padding: 0 20px;
+		}
+		&__wrp {
+			flex-direction: column;
+			top: -345px;
+			gap: 16px;
+		}
+		&__card-inner {
+			max-width: 280px;
+			height: 412px;
+		}
+		&__button {
+			flex-direction: column;
+			margin-top: 962px;
+		}
+	}
+	.card-loc {
+		&__inner {
+			padding: 39.56px 32px 40.46;
+		}
+		&__title {
+			max-width: 80px;
+			height: 16px;
+			font-size: 1.2rem;
+			line-height: 1.86;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 19.56px;
+			&_ft {
+				max-width: 130px;
+			}
+		}
+		&__adress-box {
+			margin-bottom: 24px;
+		}
+		&__line {
+			margin-bottom: 24px;
+		}
+		&__schedule-box {
+			margin-bottom: 24px;
+		}
+		&__contacts-box {
+			max-width: 179px;
+      min-height: 37px;
+		}
+	}
+	.adress-box {
+		&__title {
+			font-size: 1.2rem;
+			line-height: 1.86;
+		}
+		&__link {
+			font-size: 1.2rem;
+			line-height: 1.83;
+		}
+	}
+	.schedule-box {
+		&__week {
+			font-size: 1.2rem;
+			line-height: 1.86;
+		}
+		&__opening {
+			font-size: 1.2rem;
+			line-height: 1.86;
+		}
+	}
+	.contacts-box {
+		&__tel {
+      margin-bottom: 0;
+			font-size: 1.2rem;
+			line-height: 1.5;
+		}
+		&__email {
+			font-size: 1.2rem;
+			line-height: 1.5;
+		}
+	}
+}

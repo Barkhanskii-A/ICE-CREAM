@@ -1,0 +1,67 @@
+@media (max-width: 320px) {
+	.products {
+		background-image: url(/images/products-bg.jpg);
+		background-repeat: repeat;
+		background-size: contain;
+		max-width: 320px;
+		min-height: 1992px;
+		top: -3px;
+		&__img-bg {
+			display: none;
+		}
+		&__container {
+			padding: 0 20px;
+		}
+		&__sub-title {
+			font-size: 1.8rem;
+			line-height: 2.2rem;
+		}
+		&__title {
+			font-size: 3rem;
+			line-height: 3.8rem;
+			letter-spacing: 0.04em;
+			margin-bottom: 148px;
+		}
+		&__card {
+			flex-direction: column;
+			align-items: center;
+			gap: 164px;
+			margin-bottom: 60px;
+		}
+		.card {
+			&__inner {
+				max-width: 280px;
+				height: 420px;
+			}
+			&__img {
+				&_green {
+					top: -111px;
+					right: 38px;
+				}
+				&_yellow {
+					top: -111px;
+					right: 38px;
+				}
+				&_brown {
+					top: -111px;
+					right: 38px;
+				}
+			}
+
+			&__box {
+				min-height: 420px;
+			}
+			&__title {
+				font-size: 2.2rem;
+				line-height: 2.7rem;
+				margin-bottom: 40px;
+				padding-top: 123px;
+			}
+			&__desc {
+				max-width: 200px;
+				min-height: 124px;
+				margin-bottom: 85px;
+			}
+		}
+	}
+}

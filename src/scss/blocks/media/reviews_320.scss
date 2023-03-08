@@ -1,0 +1,15 @@
+@media (max-width: 320px) {
+	.reviews {
+		max-width: 320px;
+		height: 1048px;
+    padding: 0 20px;
+		&__img-bg {
+			top: 0;
+			max-width: 320px;
+			min-height: 1070px;
+		}
+		& .mySwiper {
+			top: -25px;
+		}
+	}
+}

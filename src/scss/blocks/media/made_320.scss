@@ -1,0 +1,73 @@
+@media (max-width: 320px) {
+	.made {
+		&__container {
+			min-height: 1564px;
+			padding: 0 20px;
+		}
+		&__recipes {
+			flex-direction: column;
+			align-items: center;
+			min-height: 356px;
+			margin-bottom: 42px;
+		}
+	}
+	.title-box {
+		&__sub-title {
+			font-size: 1.8rem;
+			line-height: 2.2rem;
+		}
+		&__title {
+			font-size: 3rem;
+			line-height: 3.8rem;
+			margin-bottom: 32px;
+		}
+	}
+	.recipes {
+		&__img {
+			max-width: 278px;
+			height: 278px;
+			filter: drop-shadow(0 -22px 0 #f8d24e);
+			margin-bottom: 35px;
+		}
+	}
+	.right-box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 320px;
+		&__desc {
+			max-width: 263px;
+			min-height: 126px;
+			text-align: center;
+		}
+		&__btn {
+			margin-top: 20px;
+		}
+	}
+	// =============Testimonials=========================
+	.testimonials {
+		&__holder {
+			flex-direction: column;
+			gap: 23px;
+			align-items: center;
+			padding-bottom: 60px;
+		}
+		&__box {
+			max-width: 152px;
+			min-height: 111px;
+			& span {
+				font-size: 3.6rem;
+				line-height: 4.2rem;
+				margin-bottom: 16px;
+			}
+		}
+		&__icon-box {
+			margin-bottom: 16px;
+		}
+		&__desc {
+			font-weight: 700;
+			font-size: 1.2rem;
+			line-height: 1.7;
+		}
+	}
+}

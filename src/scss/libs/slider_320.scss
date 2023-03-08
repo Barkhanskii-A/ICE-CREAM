@@ -1,0 +1,31 @@
+@media (max-width: 320px) {
+	.slide {
+		&__img {
+			margin-bottom: 80px;
+			max-width: 279px;
+			height: 130px;
+			border-radius: 7.40681px;
+		}
+		&__box {
+			max-width: 320px;
+			min-height: 442px;
+		}
+		&__icon-photo {
+			margin-bottom: 32px;
+		}
+		&__desc {
+			max-width: 280px;
+			min-height: 256px;
+			line-height: 3.1rem;
+			padding: 34px 39px;
+			margin-bottom: 30px;
+			border-radius: 10px;
+			letter-spacing: normal;
+		}
+		&__profile {
+			font-size: 2rem;
+			line-height: 1.86;
+      margin-bottom: 14px;
+		}
+	}
+}
